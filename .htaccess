@@ -1,0 +1,15 @@
+RewriteEngine On
+Options -Indexes
+ErrorDocument 400 /error
+ErrorDocument 401 /error
+ErrorDocument 403 /error
+ErrorDocument 404 /error
+ErrorDocument 500 /error
+RewriteRule ^ajax/([a-z0-9-]+)/?$ assets/php/ajax.php?f=$1 [NC,L]
+RewriteRule ^uploads/(.+)/? ../admin/assets/uploads/$1 [NC,L]
+RewriteRule ^inicio/?$ index.php?directory=inicio [NC,L]
+RewriteRule ^noticia/([a-z0-9-]+)/?$ index.php?directory=noticia&url=$1 [NC,L]
+RewriteRule ^topico/([a-z0-9-]+)/pagina/([0-9]+)/?$ index.php?directory=topico&url=$1&pagina=$2 [NC,L]
+RewriteRule ^topico/([a-z0-9-]+)/?$ index.php?directory=topico&url=$1 [NC,L]
+RewriteRule ^arte/([a-z0-9-]+)/?$ index.php?directory=arte&url=$1 [NC,L]
+RewriteRule ^p/([a-z0-9-]+)/?$ index.php?directory=pagina&url=$1 [NC,L]

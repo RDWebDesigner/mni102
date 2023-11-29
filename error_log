@@ -1,0 +1,140 @@
+[01-Jul-2020 16:26:36 America/Sao_Paulo] PHP Notice:  Undefined variable: Itens in /home/kzinxovv/public_html/MNI102/assets/pages/inicio.php on line 115
+[01-Jul-2020 16:26:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function Grups() on null in /home/kzinxovv/public_html/MNI102/assets/pages/inicio.php:115
+Stack trace:
+#0 /home/kzinxovv/public_html/MNI102/index.php(20): include()
+#1 {main}
+  thrown in /home/kzinxovv/public_html/MNI102/assets/pages/inicio.php on line 115
+[01-Jul-2020 16:27:15 America/Sao_Paulo] PHP Notice:  Undefined variable: limit in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 82
+[01-Jul-2020 16:27:15 America/Sao_Paulo] PHP Warning:  PDO::query(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 82
+[01-Jul-2020 16:27:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php:83
+Stack trace:
+#0 /home/kzinxovv/public_html/MNI102/assets/pages/inicio.php(115): Itens->Grups()
+#1 /home/kzinxovv/public_html/MNI102/index.php(20): include('/home/kzinxovv/...')
+#2 {main}
+  thrown in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 83
+[01-Jul-2020 16:45:30 America/Sao_Paulo] PHP Notice:  Undefined index: quarto in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 84
+[01-Jul-2020 21:41:03 America/Sao_Paulo] PHP Notice:  Undefined variable: rowPage in /home/kzinxovv/public_html/MNI102/assets/pages/projetos.php on line 2
+[01-Jul-2020 21:43:00 America/Sao_Paulo] PHP Notice:  Undefined variable: rowPage in /home/kzinxovv/public_html/MNI102/assets/pages/projetos.php on line 2
+[01-Jul-2020 22:51:54 America/Sao_Paulo] PHP Warning:  PDO::query(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kzinxovv_painel.noticia' doesn't exist in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 102
+[01-Jul-2020 22:51:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php:103
+Stack trace:
+#0 /home/kzinxovv/public_html/MNI102/assets/pages/projetos.php(12): Itens->Projetos()
+#1 /home/kzinxovv/public_html/MNI102/index.php(13): include('/home/kzinxovv/...')
+#2 {main}
+  thrown in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 103
+[01-Jul-2020 22:52:08 America/Sao_Paulo] PHP Warning:  PDO::query(): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kzinxovv_painel.noticia' doesn't exist in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 102
+[01-Jul-2020 22:52:08 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php:103
+Stack trace:
+#0 /home/kzinxovv/public_html/MNI102/assets/pages/projetos.php(12): Itens->Projetos()
+#1 /home/kzinxovv/public_html/MNI102/index.php(13): include('/home/kzinxovv/...')
+#2 {main}
+  thrown in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 103
+[01-Jul-2020 23:00:10 America/Sao_Paulo] PHP Warning:  PDO::query(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' status='true'' at line 1 in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 102
+[01-Jul-2020 23:00:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php:103
+Stack trace:
+#0 /home/kzinxovv/public_html/MNI102/assets/pages/projetos.php(26): Itens->Projetos()
+#1 /home/kzinxovv/public_html/MNI102/index.php(13): include('/home/kzinxovv/...')
+#2 {main}
+  thrown in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 103
+[01-Jul-2020 23:12:01 America/Sao_Paulo] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 69
+[01-Jul-2020 23:12:01 America/Sao_Paulo] PHP Warning:  date() expects parameter 2 to be integer, string given in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 69
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 106
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 108
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 116
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 119
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 120
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 122
+[01-Jul-2020 23:21:53 America/Sao_Paulo] PHP Notice:  Undefined variable: row in /home/kzinxovv/public_html/MNI102/assets/class/Itens.class.php on line 123
